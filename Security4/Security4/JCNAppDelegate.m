@@ -14,6 +14,8 @@
 {
 //    [self savePassword];
     
+    //注意：更新属性不一定每次都要先查询，然后再更新。可以直接更新，可以根据更新结果SecItemNotFound判断。
+    
     NSString* keyForSearchFor = @"PhoneNumber";
     NSString* service = [[NSBundle mainBundle] bundleIdentifier];
     NSDictionary* query = @{(__bridge id)kSecClass : (__bridge id)kSecClassGenericPassword ,
