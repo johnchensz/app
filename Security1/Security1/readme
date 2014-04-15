@@ -1,0 +1,18 @@
+
+安全功能的开发，事先要做的准备比较多
+1 是要理解OS系统上keychain机制
+2 iOS上要启用安全功能，需要事先做什么配置？
+3 实际开发中，基本的用法是怎样的？
+
+keychain机制先放一放，先了解iOS上做安全方面的开发，需要事先做什么工作？
+1、先iOS Provision Portal上配置好，enable了data protection的app id，并创建对应这个id的provision profile。
+2、注意，下载profile后，以前都是直接双击setup profile，根据作者的建议是，把profile拖拽到iTunes上来setup profile。为什么要这么做，作者的解释我没看懂。不过还是采取作者的建议也没坏处就是了。
+
+
+实际安全开发，基本的用法如下：
+1、先要引入Security framework，并设置项目target属性，enable data protection。
+2、import <Security/Security.h>
+3、调用secItemAdd函数（security framework都是c特征的api，不是object类型的api），这个函数的作用是增加一个数据保护项目到iOS的keyChain中。
+
+4、注意，这个函数只是用来在keyChain中增加一个数据项目的。如果是对应数据项目已经存在的话，会返回错误。
+

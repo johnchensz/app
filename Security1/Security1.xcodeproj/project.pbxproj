@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C0FCB918FB9F9D00A8235F /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 15C0FCB818FB9F9D00A8235F /* readme */; };
 		52B33FC318FACFD4005B4C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B33FC218FACFD4005B4C72 /* Foundation.framework */; };
 		52B33FC518FACFD4005B4C72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B33FC418FACFD4005B4C72 /* CoreGraphics.framework */; };
 		52B33FC718FACFD4005B4C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B33FC618FACFD4005B4C72 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C0FCB818FB9F9D00A8235F /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		52B33FBF18FACFD4005B4C72 /* Security1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Security1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B33FC218FACFD4005B4C72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52B33FC418FACFD4005B4C72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 		52B33FC818FACFD4005B4C72 /* Security1 */ = {
 			isa = PBXGroup;
 			children = (
+				15C0FCB818FB9F9D00A8235F /* readme */,
 				52B33FD118FACFD4005B4C72 /* JCNAppDelegate.h */,
 				52B33FD218FACFD4005B4C72 /* JCNAppDelegate.m */,
 				52B33FD418FACFD4005B4C72 /* Main_iPhone.storyboard */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C0FCB918FB9F9D00A8235F /* readme in Resources */,
 				52B33FD918FACFD4005B4C72 /* Main_iPad.storyboard in Resources */,
 				52B33FDE18FACFD4005B4C72 /* Images.xcassets in Resources */,
 				52B33FD618FACFD4005B4C72 /* Main_iPhone.storyboard in Resources */,
