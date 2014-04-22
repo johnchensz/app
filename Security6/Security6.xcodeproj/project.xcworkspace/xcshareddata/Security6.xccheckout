@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>A7707CA3-5B1A-471E-B4A9-ABA2C4C764CD</string>
-=======
-	<string>8E7FC97E-E662-4C3A-BE87-F55715A3862F</string>
->>>>>>> 4438161cb9879d2b0725c524bb33603eeb3f194b
+	<string>76BBC91A-07D2-46BB-85A0-998489C3FDA9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Security1</string>
+	<string>Security6</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>B086439A-388E-4B50-A9C8-B8806D04F73B</key>
-=======
-		<key>0CA97A09-0F35-4CD1-932A-E2E61668529A</key>
->>>>>>> 4438161cb9879d2b0725c524bb33603eeb3f194b
+		<key>060F8CA5-05D4-4880-907B-AD316683694D</key>
 		<string>https://github.com/johnchensz/app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Security1/Security1.xcodeproj/project.xcworkspace</string>
+	<string>Security6/Security6.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>B086439A-388E-4B50-A9C8-B8806D04F73B</key>
-=======
-		<key>0CA97A09-0F35-4CD1-932A-E2E61668529A</key>
->>>>>>> 4438161cb9879d2b0725c524bb33603eeb3f194b
+		<key>060F8CA5-05D4-4880-907B-AD316683694D</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,26 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>B086439A-388E-4B50-A9C8-B8806D04F73B</string>
-=======
-	<string>0CA97A09-0F35-4CD1-932A-E2E61668529A</string>
->>>>>>> 4438161cb9879d2b0725c524bb33603eeb3f194b
+	<string>060F8CA5-05D4-4880-907B-AD316683694D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>B086439A-388E-4B50-A9C8-B8806D04F73B</string>
+			<string>060F8CA5-05D4-4880-907B-AD316683694D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>app</string>
-=======
-			<string>0CA97A09-0F35-4CD1-932A-E2E61668529A</string>
-			<key>IDESourceControlWCCName</key>
-			<string>cookbook</string>
->>>>>>> 4438161cb9879d2b0725c524bb33603eeb3f194b
 		</dict>
 	</array>
 </dict>

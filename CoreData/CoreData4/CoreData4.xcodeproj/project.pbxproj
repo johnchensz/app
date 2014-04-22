@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DAC1DD1906938200E52FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1DC1906938200E52FCB /* Foundation.framework */; };
+		15DAC1DF1906938200E52FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1DE1906938200E52FCB /* CoreGraphics.framework */; };
+		15DAC1E11906938200E52FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1E01906938200E52FCB /* UIKit.framework */; };
+		15DAC1E31906938200E52FCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1E21906938200E52FCB /* CoreData.framework */; };
+		15DAC1E91906938200E52FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15DAC1E71906938200E52FCB /* InfoPlist.strings */; };
+		15DAC1EB1906938200E52FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAC1EA1906938200E52FCB /* main.m */; };
+		15DAC1EF1906938200E52FCB /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAC1EE1906938200E52FCB /* CDAppDelegate.m */; };
+		15DAC1F21906938200E52FCB /* CoreData4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15DAC1F01906938200E52FCB /* CoreData4.xcdatamodeld */; };
+		15DAC1F41906938200E52FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DAC1F31906938200E52FCB /* Images.xcassets */; };
+		15DAC1FB1906938200E52FCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1FA1906938200E52FCB /* XCTest.framework */; };
+		15DAC1FC1906938200E52FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1DC1906938200E52FCB /* Foundation.framework */; };
+		15DAC1FD1906938200E52FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1E01906938200E52FCB /* UIKit.framework */; };
+		15DAC1FE1906938200E52FCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAC1E21906938200E52FCB /* CoreData.framework */; };
+		15DAC2061906938200E52FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15DAC2041906938200E52FCB /* InfoPlist.strings */; };
+		15DAC2081906938200E52FCB /* CoreData4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAC2071906938200E52FCB /* CoreData4Tests.m */; };
+		15DAC2131906945B00E52FCB /* CDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAC2121906945B00E52FCB /* CDPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DAC1FF1906938200E52FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DAC1D11906938200E52FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DAC1D81906938200E52FCB;
+			remoteInfo = CoreData4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15DAC1D91906938200E52FCB /* CoreData4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DAC1DC1906938200E52FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15DAC1DE1906938200E52FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15DAC1E01906938200E52FCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15DAC1E21906938200E52FCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		15DAC1E61906938200E52FCB /* CoreData4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreData4-Info.plist"; sourceTree = "<group>"; };
+		15DAC1E81906938200E52FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15DAC1EA1906938200E52FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15DAC1EC1906938200E52FCB /* CoreData4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreData4-Prefix.pch"; sourceTree = "<group>"; };
+		15DAC1ED1906938200E52FCB /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		15DAC1EE1906938200E52FCB /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		15DAC1F11906938200E52FCB /* CoreData4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData4.xcdatamodel; sourceTree = "<group>"; };
+		15DAC1F31906938200E52FCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15DAC1F91906938200E52FCB /* CoreData4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DAC1FA1906938200E52FCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		15DAC2031906938200E52FCB /* CoreData4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreData4Tests-Info.plist"; sourceTree = "<group>"; };
+		15DAC2051906938200E52FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15DAC2071906938200E52FCB /* CoreData4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreData4Tests.m; sourceTree = "<group>"; };
+		15DAC2111906945B00E52FCB /* CDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPerson.h; sourceTree = "<group>"; };
+		15DAC2121906945B00E52FCB /* CDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPerson.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DAC1D61906938200E52FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC1DF1906938200E52FCB /* CoreGraphics.framework in Frameworks */,
+				15DAC1E31906938200E52FCB /* CoreData.framework in Frameworks */,
+				15DAC1E11906938200E52FCB /* UIKit.framework in Frameworks */,
+				15DAC1DD1906938200E52FCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DAC1F61906938200E52FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC1FB1906938200E52FCB /* XCTest.framework in Frameworks */,
+				15DAC1FE1906938200E52FCB /* CoreData.framework in Frameworks */,
+				15DAC1FD1906938200E52FCB /* UIKit.framework in Frameworks */,
+				15DAC1FC1906938200E52FCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15DAC1D01906938200E52FCB = {
+			isa = PBXGroup;
+			children = (
+				15DAC1E41906938200E52FCB /* CoreData4 */,
+				15DAC2011906938200E52FCB /* CoreData4Tests */,
+				15DAC1DB1906938200E52FCB /* Frameworks */,
+				15DAC1DA1906938200E52FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DAC1DA1906938200E52FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC1D91906938200E52FCB /* CoreData4.app */,
+				15DAC1F91906938200E52FCB /* CoreData4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DAC1DB1906938200E52FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC1DC1906938200E52FCB /* Foundation.framework */,
+				15DAC1DE1906938200E52FCB /* CoreGraphics.framework */,
+				15DAC1E01906938200E52FCB /* UIKit.framework */,
+				15DAC1E21906938200E52FCB /* CoreData.framework */,
+				15DAC1FA1906938200E52FCB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15DAC1E41906938200E52FCB /* CoreData4 */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC1ED1906938200E52FCB /* CDAppDelegate.h */,
+				15DAC1EE1906938200E52FCB /* CDAppDelegate.m */,
+				15DAC1F31906938200E52FCB /* Images.xcassets */,
+				15DAC1F01906938200E52FCB /* CoreData4.xcdatamodeld */,
+				15DAC1E51906938200E52FCB /* Supporting Files */,
+				15DAC2111906945B00E52FCB /* CDPerson.h */,
+				15DAC2121906945B00E52FCB /* CDPerson.m */,
+			);
+			path = CoreData4;
+			sourceTree = "<group>";
+		};
+		15DAC1E51906938200E52FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC1E61906938200E52FCB /* CoreData4-Info.plist */,
+				15DAC1E71906938200E52FCB /* InfoPlist.strings */,
+				15DAC1EA1906938200E52FCB /* main.m */,
+				15DAC1EC1906938200E52FCB /* CoreData4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15DAC2011906938200E52FCB /* CoreData4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC2071906938200E52FCB /* CoreData4Tests.m */,
+				15DAC2021906938200E52FCB /* Supporting Files */,
+			);
+			path = CoreData4Tests;
+			sourceTree = "<group>";
+		};
+		15DAC2021906938200E52FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15DAC2031906938200E52FCB /* CoreData4Tests-Info.plist */,
+				15DAC2041906938200E52FCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DAC1D81906938200E52FCB /* CoreData4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DAC20B1906938200E52FCB /* Build configuration list for PBXNativeTarget "CoreData4" */;
+			buildPhases = (
+				15DAC1D51906938200E52FCB /* Sources */,
+				15DAC1D61906938200E52FCB /* Frameworks */,
+				15DAC1D71906938200E52FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreData4;
+			productName = CoreData4;
+			productReference = 15DAC1D91906938200E52FCB /* CoreData4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DAC1F81906938200E52FCB /* CoreData4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DAC20E1906938200E52FCB /* Build configuration list for PBXNativeTarget "CoreData4Tests" */;
+			buildPhases = (
+				15DAC1F51906938200E52FCB /* Sources */,
+				15DAC1F61906938200E52FCB /* Frameworks */,
+				15DAC1F71906938200E52FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DAC2001906938200E52FCB /* PBXTargetDependency */,
+			);
+			name = CoreData4Tests;
+			productName = CoreData4Tests;
+			productReference = 15DAC1F91906938200E52FCB /* CoreData4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DAC1D11906938200E52FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GLSX;
+				TargetAttributes = {
+					15DAC1F81906938200E52FCB = {
+						TestTargetID = 15DAC1D81906938200E52FCB;
+					};
+				};
+			};
+			buildConfigurationList = 15DAC1D41906938200E52FCB /* Build configuration list for PBXProject "CoreData4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15DAC1D01906938200E52FCB;
+			productRefGroup = 15DAC1DA1906938200E52FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DAC1D81906938200E52FCB /* CoreData4 */,
+				15DAC1F81906938200E52FCB /* CoreData4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DAC1D71906938200E52FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC1E91906938200E52FCB /* InfoPlist.strings in Resources */,
+				15DAC1F41906938200E52FCB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DAC1F71906938200E52FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC2061906938200E52FCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DAC1D51906938200E52FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC1EB1906938200E52FCB /* main.m in Sources */,
+				15DAC1EF1906938200E52FCB /* CDAppDelegate.m in Sources */,
+				15DAC1F21906938200E52FCB /* CoreData4.xcdatamodeld in Sources */,
+				15DAC2131906945B00E52FCB /* CDPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DAC1F51906938200E52FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAC2081906938200E52FCB /* CoreData4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DAC2001906938200E52FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DAC1D81906938200E52FCB /* CoreData4 */;
+			targetProxy = 15DAC1FF1906938200E52FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15DAC1E71906938200E52FCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DAC1E81906938200E52FCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15DAC2041906938200E52FCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DAC2051906938200E52FCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15DAC2091906938200E52FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DAC20A1906938200E52FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DAC20C1906938200E52FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData4/CoreData4-Prefix.pch";
+				INFOPLIST_FILE = "CoreData4/CoreData4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15DAC20D1906938200E52FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData4/CoreData4-Prefix.pch";
+				INFOPLIST_FILE = "CoreData4/CoreData4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15DAC20F1906938200E52FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreData4.app/CoreData4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData4/CoreData4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreData4Tests/CoreData4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		15DAC2101906938200E52FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreData4.app/CoreData4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData4/CoreData4-Prefix.pch";
+				INFOPLIST_FILE = "CoreData4Tests/CoreData4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DAC1D41906938200E52FCB /* Build configuration list for PBXProject "CoreData4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DAC2091906938200E52FCB /* Debug */,
+				15DAC20A1906938200E52FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DAC20B1906938200E52FCB /* Build configuration list for PBXNativeTarget "CoreData4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DAC20C1906938200E52FCB /* Debug */,
+				15DAC20D1906938200E52FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15DAC20E1906938200E52FCB /* Build configuration list for PBXNativeTarget "CoreData4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DAC20F1906938200E52FCB /* Debug */,
+				15DAC2101906938200E52FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15DAC1F01906938200E52FCB /* CoreData4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15DAC1F11906938200E52FCB /* CoreData4.xcdatamodel */,
+			);
+			currentVersion = 15DAC1F11906938200E52FCB /* CoreData4.xcdatamodel */;
+			path = CoreData4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15DAC1D11906938200E52FCB /* Project object */;
+}
