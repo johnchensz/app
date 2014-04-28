@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CoreData7/CoreData7.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreData6/CoreData6.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CoreData5/CoreData5.xcodeproj">
    </FileRef>
    <FileRef
