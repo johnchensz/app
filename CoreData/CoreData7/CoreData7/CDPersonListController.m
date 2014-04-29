@@ -36,6 +36,7 @@ static NSString* PersonTableViewCell = @"PersonTableViewCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:PersonTableViewCell];
+    self.tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
     NSFetchRequest* fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"CDPerson"];
     NSSortDescriptor* ageSort = [[NSSortDescriptor alloc] initWithKey:@"age" ascending:YES];
@@ -76,7 +77,7 @@ static NSString* PersonTableViewCell = @"PersonTableViewCell";
 
 -(IBAction)onEdit:(id)sender
 {
-    
+    [self setEditing:YES animated:YES];
 }
 /*
 #pragma mark - Navigation
@@ -117,11 +118,11 @@ static NSString* PersonTableViewCell = @"PersonTableViewCell";
 {
     return UITableViewCellEditingStyleDelete;
 }
+
 - (void) setEditing:(BOOL)editing animated:(BOOL)animated{
-    [super setEditing:editing
-             animated:animated];
-    [self.tableView setEditing:editing
-                      animated:animated];
+    [super setEditing:editing animated:animated];
+    
+    [self.tableView setEditing:editing animated:animated];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -161,6 +162,15 @@ static NSString* PersonTableViewCell = @"PersonTableViewCell";
         }
         
     }
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0;
+}
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return nil;
 }
 
 @end

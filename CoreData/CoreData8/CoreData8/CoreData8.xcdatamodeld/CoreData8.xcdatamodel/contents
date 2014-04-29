@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CDEmployee" representedClassName="CDEmployee" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <relationship name="manager" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDManager" inverseName="employees" inverseEntity="CDManager" syncable="YES"/>
+    </entity>
+    <entity name="CDManager" representedClassName="CDManager" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <relationship name="employees" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDEmployee" inverseName="manager" inverseEntity="CDEmployee" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDEmployee" positionX="162" positionY="126" width="128" height="103"/>
+        <element name="CDManager" positionX="-36" positionY="126" width="128" height="103"/>
+    </elements>
+</model>
