@@ -1,0 +1,13 @@
+//
+//  CDColorTransformer.h
+//  CoreData10
+//
+//  Created by John Chen on 5/4/14.
+//  Copyright (c) 2014 GLSX. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface CDColorTransformer : NSValueTransformer
+
+@end
