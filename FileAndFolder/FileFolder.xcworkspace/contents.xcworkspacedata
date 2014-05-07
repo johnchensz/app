@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:FileFolder6/FileFolder6.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileFolder5/FileFolder5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FIleFolder4/FIleFolder4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileFolder3/FileFolder3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileFolder2/FileFolder2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileFolder/FileFolder.xcodeproj">
+   </FileRef>
+</Workspace>
